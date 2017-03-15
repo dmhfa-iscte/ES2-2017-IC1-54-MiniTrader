@@ -11,6 +11,7 @@ import java.io.Serializable;
  */
 
 //random test comment
+//random test comment #2
 public class Order implements Serializable {
 	/**
 	 * Nickname of the client who issued the order.
