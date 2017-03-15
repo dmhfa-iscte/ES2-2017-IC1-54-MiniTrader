@@ -10,7 +10,7 @@ import java.io.Serializable;
  * @author alc
  */
 
-
+//random test comment
 public class Order implements Serializable {
 	/**
 	 * Nickname of the client who issued the order.
