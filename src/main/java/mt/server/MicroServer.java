@@ -13,6 +13,8 @@ import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javax.swing.JOptionPane;
+
 import mt.Order;
 import mt.comm.ServerComm;
 import mt.comm.ServerSideMessage;
@@ -59,6 +61,13 @@ public class MicroServer implements MicroTraderServer {
 	
 	/** The value is {@value #EMPTY} */
 	public static final int EMPTY = 0;
+	
+	/** The maximum number of unfulfilled sell orders a client can have at a time */
+	private int maxSellOrders=5;
+
+	/** The minimum order quantity allowed for a buy/sell order */
+	private int minOrderQuantity=10;
+	/**
 
 	/**
 	 * Constructor
@@ -72,7 +81,7 @@ public class MicroServer implements MicroTraderServer {
 	@Override
 	public void start(ServerComm serverComm) {
 		serverComm.start();
-		
+
 		LOGGER.log(Level.INFO, "Starting Server...");
 
 		this.serverComm = serverComm;
@@ -80,41 +89,68 @@ public class MicroServer implements MicroTraderServer {
 		ServerSideMessage msg = null;
 		while ((msg = serverComm.getNextMessage()) != null) {
 			ServerSideMessage.Type type = msg.getType();
-			
+
 			if(type == null){
 				serverComm.sendError(null, "Type was not recognized");
 				continue;
 			}
 
 			switch (type) {
-				case CONNECTED:
-					try{
-						processUserConnected(msg);
-					}catch (ServerException e) {
-						serverComm.sendError(msg.getSenderNickname(), e.getMessage());
-					}
-					break;
-				case DISCONNECTED:
-					processUserDisconnected(msg);
-					break;
-				case NEW_ORDER:
-					try {
-						verifyUserConnected(msg);
-						if(msg.getOrder().getServerOrderID() == EMPTY){
-							msg.getOrder().setServerOrderID(id++);
-						}
-						notifyAllClients(msg.getOrder());
-						processNewOrder(msg);
-					} catch (ServerException e) {
-						serverComm.sendError(msg.getSenderNickname(), e.getMessage());
-					}
-					break;
-				default:
-					break;
+			case CONNECTED:
+				try{
+					processUserConnected(msg);
+				}catch (ServerException e) {
+					serverComm.sendError(msg.getSenderNickname(), e.getMessage());
 				}
+				break;
+			case DISCONNECTED:
+				processUserDisconnected(msg);
+				break;
+			case NEW_ORDER:
+				try {
+					verifyUserConnected(msg);
+					Order order=msg.getOrder();
+					if(order.isSellOrder()){
+						if(numberOfSellOrdersIsSmallerThanLimit(order.getNickname())){
+							if(quantityOfOrderIsBiggerThanLimit(order.getNumberOfUnits())){
+								if(order.getServerOrderID() == EMPTY){
+									order.setServerOrderID(id++);
+								}
+								notifyAllClients(order);
+								processNewOrder(msg);
+							}
+							else{
+								JOptionPane.showMessageDialog(null, "NUMBER OF UNITS IS TOO SMALL");
+							}
+						}
+						else{
+							JOptionPane.showMessageDialog(null, "NUMBER OF SELL ORDERS EXCEEDS THE ALLOWED");
+						}
+					}
+					else{
+						if(quantityOfOrderIsBiggerThanLimit(order.getNumberOfUnits())){
+							if(order.getServerOrderID() == EMPTY){
+								order.setServerOrderID(id++);
+							}
+							notifyAllClients(order);
+							processNewOrder(msg);
+						}
+						else{
+							JOptionPane.showMessageDialog(null, "NUMBER OF UNITS IS TOO SMALL");
+						}
+					}
+
+				} catch (ServerException e) {
+					serverComm.sendError(msg.getSenderNickname(), e.getMessage());
+				}
+				break;
+			default:
+				break;
+			}
 		}
 		LOGGER.log(Level.INFO, "Shutting Down Server...");
 	}
+
 
 
 	/**
@@ -366,4 +402,26 @@ public class MicroServer implements MicroTraderServer {
 		}
 	}
 
+	/**
+	 * JAVADOC
+	 */
+	private boolean numberOfSellOrdersIsSmallerThanLimit(String nickname){
+		int i=0;
+		for (Entry<String, Set<Order>> entry : orderMap.entrySet()) {
+			Iterator<Order> it = entry.getValue().iterator();
+			while (it.hasNext()) {
+				Order o = it.next();
+				if (o.isSellOrder()) {
+					i++;
+				}
+			}
+		}
+		return i<maxSellOrders;
+	}
+
+	private boolean quantityOfOrderIsBiggerThanLimit(int quantity){
+		return quantity>=minOrderQuantity;
+	}
+
+	
 }
