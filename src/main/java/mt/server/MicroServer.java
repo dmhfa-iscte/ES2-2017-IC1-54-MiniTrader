@@ -62,8 +62,9 @@ public class MicroServer implements MicroTraderServer {
 	/** The value is {@value #EMPTY} */
 	public static final int EMPTY = 0;
 	
+	/** The minimum order quantity allowed for a buy/sell order */
 	private int minOrderQuantity=10;
-
+	/**
 	/**
 	 * Constructor
 	 */
