@@ -13,6 +13,8 @@ import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javax.swing.JOptionPane;
+
 import mt.Order;
 import mt.comm.ServerComm;
 import mt.comm.ServerSideMessage;
@@ -59,7 +61,12 @@ public class MicroServer implements MicroTraderServer {
 	
 	/** The value is {@value #EMPTY} */
 	public static final int EMPTY = 0;
+	
+	/** The maximum number of unfulfilled sell orders a client can have at a time */
+	private int maxSellOrders=5;
 
+	/** The minimum order quantity allowed for a buy/sell order */
+	private int minOrderQuantity=10;
 	/**
 	 * Constructor
 	 */
@@ -100,18 +107,44 @@ public class MicroServer implements MicroTraderServer {
 				case NEW_ORDER:
 					try {
 						verifyUserConnected(msg);
-						if(msg.getOrder().getServerOrderID() == EMPTY){
-							msg.getOrder().setServerOrderID(id++);
+						Order order=msg.getOrder();
+						if(order.isSellOrder()){
+							if(numberOfSellOrdersIsSmallerThanLimit(order.getNickname())){
+								if(quantityOfOrderIsBiggerThanLimit(order.getNumberOfUnits())){
+									if(order.getServerOrderID() == EMPTY){
+										order.setServerOrderID(id++);
+									}
+									notifyAllClients(order);
+									processNewOrder(msg);
+								}
+								else{
+									JOptionPane.showMessageDialog(null, "NUMBER OF UNITS IS TOO SMALL");
+								}
+							}
+							else{
+								JOptionPane.showMessageDialog(null, "NUMBER OF SELL ORDERS EXCEEDS THE ALLOWED");
+							}
 						}
-						notifyAllClients(msg.getOrder());
-						processNewOrder(msg);
+						else{
+							if(quantityOfOrderIsBiggerThanLimit(order.getNumberOfUnits())){
+								if(order.getServerOrderID() == EMPTY){
+									order.setServerOrderID(id++);
+								}
+								notifyAllClients(order);
+								processNewOrder(msg);
+							}
+							else{
+								JOptionPane.showMessageDialog(null, "NUMBER OF UNITS IS TOO SMALL");
+							}
+						}
+
 					} catch (ServerException e) {
 						serverComm.sendError(msg.getSenderNickname(), e.getMessage());
 					}
 					break;
 				default:
 					break;
-				}
+			}
 		}
 		LOGGER.log(Level.INFO, "Shutting Down Server...");
 	}
@@ -218,15 +251,16 @@ public class MicroServer implements MicroTraderServer {
 		LOGGER.log(Level.INFO, "Processing new order...");
 
 		Order o = msg.getOrder();
-		
+
 		// save the order on map
 		saveOrder(o);
 
 		// if is buy order
 		if (o.isBuyOrder()) {
+
 			processBuy(msg.getOrder());
 		}
-		
+
 		// if is sell order
 		if (o.isSellOrder()) {
 			processSell(msg.getOrder());
@@ -254,21 +288,24 @@ public class MicroServer implements MicroTraderServer {
 		
 		//save order on map
 		Set<Order> orders = orderMap.get(o.getNickname());
-		orders.add(o);		
+		orders.add(o);
+		
 	}
+		
 
 	/**
-	 * Process the sell order
+	 * Process the sell order. A client cannot sell stock to himself but the order is still placed. <5
 	 * 
 	 * @param sellOrder
 	 * 		Order sent by the client with a number of units of a stock and the price per unit he wants to sell
 	 */
 	private void processSell(Order sellOrder){
 		LOGGER.log(Level.INFO, "Processing sell order...");
-		
+
 		for (Entry<String, Set<Order>> entry : orderMap.entrySet()) {
 			for (Order o : entry.getValue()) {
-				if (o.isBuyOrder() && o.getStock().equals(sellOrder.getStock()) && o.getPricePerUnit() >= sellOrder.getPricePerUnit()) {
+				if (o.isBuyOrder() && o.getStock().equals(sellOrder.getStock()) && o.getPricePerUnit() >= sellOrder.getPricePerUnit()
+						&& !(o.getNickname().equals(sellOrder.getNickname()))){
 					doTransaction (o, sellOrder);
 				}
 			}
@@ -277,7 +314,7 @@ public class MicroServer implements MicroTraderServer {
 	}
 	
 	/**
-	 * Process the buy order
+	 * Process the buy order. A client cannot buy stock from himself but the order is still placed.
 	 * 
 	 * @param buyOrder
 	 *          Order sent by the client with a number of units of a stock and the price per unit he wants to buy
@@ -287,7 +324,8 @@ public class MicroServer implements MicroTraderServer {
 
 		for (Entry<String, Set<Order>> entry : orderMap.entrySet()) {
 			for (Order o : entry.getValue()) {
-				if (o.isSellOrder() && buyOrder.getStock().equals(o.getStock()) && o.getPricePerUnit() <= buyOrder.getPricePerUnit()) {
+				if (o.isSellOrder() && buyOrder.getStock().equals(o.getStock()) && o.getPricePerUnit() <= buyOrder.getPricePerUnit()
+						&& !(o.getNickname().equals(buyOrder.getNickname()))) {
 					doTransaction(buyOrder, o);
 				}
 			}
@@ -365,5 +403,27 @@ public class MicroServer implements MicroTraderServer {
 			}
 		}
 	}
+	
+	
+	/**
+	 * JAVADOC
+	 */
+	private boolean numberOfSellOrdersIsSmallerThanLimit(String nickname){
+		int i=0;
+		for (Entry<String, Set<Order>> entry : orderMap.entrySet()) {
+			Iterator<Order> it = entry.getValue().iterator();
+			while (it.hasNext()) {
+				Order o = it.next();
+				if (o.isSellOrder()) {
+					i++;
+				}
+			}
+		}
+		return i<maxSellOrders;
+	}
 
+	private boolean quantityOfOrderIsBiggerThanLimit(int quantity){
+		return quantity>=minOrderQuantity;
+	}
+	
 }
