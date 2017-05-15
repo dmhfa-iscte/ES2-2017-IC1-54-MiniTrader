@@ -129,7 +129,7 @@ public class MicroServer implements MicroTraderServer {
 							if(quantityOfOrderIsBiggerThanLimit(order.getNumberOfUnits())){
 								if(order.getServerOrderID() == EMPTY){
 									order.setServerOrderID(id++);
-								}
+								}//novo
 								notifyAllClients(order);
 								processNewOrder(msg);
 							}
