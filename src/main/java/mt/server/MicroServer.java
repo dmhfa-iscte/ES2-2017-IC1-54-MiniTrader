@@ -13,6 +13,8 @@ import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javax.swing.JOptionPane;
+
 import mt.Order;
 import mt.comm.ServerComm;
 import mt.comm.ServerSideMessage;
@@ -59,6 +61,8 @@ public class MicroServer implements MicroTraderServer {
 	
 	/** The value is {@value #EMPTY} */
 	public static final int EMPTY = 0;
+	
+	private int minOrderQuantity=10;
 
 	/**
 	 * Constructor
@@ -100,11 +104,17 @@ public class MicroServer implements MicroTraderServer {
 				case NEW_ORDER:
 					try {
 						verifyUserConnected(msg);
-						if(msg.getOrder().getServerOrderID() == EMPTY){
-							msg.getOrder().setServerOrderID(id++);
+						if(quantityOfOrderIsBiggerThanLimit(msg.getOrder().getNumberOfUnits())){
+							if(msg.getOrder().getServerOrderID() == EMPTY){
+								msg.getOrder().setServerOrderID(id++);
+							}
+							notifyAllClients(msg.getOrder());
+							processNewOrder(msg);
 						}
-						notifyAllClients(msg.getOrder());
-						processNewOrder(msg);
+						else{
+							JOptionPane.showMessageDialog(null, "NUMBER OF UNITS IS TOO SMALL");
+						}
+
 					} catch (ServerException e) {
 						serverComm.sendError(msg.getSenderNickname(), e.getMessage());
 					}
@@ -365,5 +375,11 @@ public class MicroServer implements MicroTraderServer {
 			}
 		}
 	}
+	
+	private boolean quantityOfOrderIsBiggerThanLimit(int quantity){
+		return quantity>=minOrderQuantity;
+	}
+
+	
 
 }
