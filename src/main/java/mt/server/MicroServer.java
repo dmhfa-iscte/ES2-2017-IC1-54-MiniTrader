@@ -76,6 +76,9 @@ public class MicroServer implements MicroTraderServer {
 		updatedOrders = new HashSet<>();
 	}
 
+	/**
+	 * 
+	 */
 	@Override
 	public void start(ServerComm serverComm) {
 		serverComm.start();
@@ -404,10 +407,11 @@ public class MicroServer implements MicroTraderServer {
 		}
 	}
 	
-	
-	/**
-	 * JAVADOC
-	 */
+/**
+ * 
+ * @param nickname 
+ * @return true if the number of sell orders is smaller than the limit
+ */
 	private boolean numberOfSellOrdersIsSmallerThanLimit(String nickname){
 		int i=0;
 		for (Entry<String, Set<Order>> entry : orderMap.entrySet()) {
@@ -422,6 +426,11 @@ public class MicroServer implements MicroTraderServer {
 		return i<maxSellOrders;
 	}
 
+	/**
+	 * 
+	 * @param quantity of products in the order
+	 * @return true if the quantity of the order is bigger than the limit
+	 */
 	private boolean quantityOfOrderIsBiggerThanLimit(int quantity){
 		return quantity>=minOrderQuantity;
 	}
