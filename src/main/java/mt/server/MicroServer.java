@@ -88,6 +88,7 @@ public class MicroServer implements MicroTraderServer {
 		updatedOrders = new HashSet<>();
 	}
 
+	//TODO
 	@Override
 	public void start(ServerComm serverComm) {
 		serverComm.start();
@@ -393,12 +394,22 @@ public class MicroServer implements MicroTraderServer {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param quantity of products in the order
+	 * @return true if the quantity is bigger than the limit
+	 */
 	private boolean quantityOfOrderIsBiggerThanLimit(int quantity){
 		return quantity>=minOrderQuantity;
 	}
 
-	//Functional Requirement
-		private void xmlFile(ServerSideMessage msg, Order order) {
+/**
+ * Creates a xml File with the data from the Order and from the Client
+	 * 
+	 * @param msg  the message sent by the client
+	 * @param order refers to a client buy order or a sell order 
+ */
+	private void xmlFile(ServerSideMessage msg, Order order) {
 			try {
 				DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 				DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
