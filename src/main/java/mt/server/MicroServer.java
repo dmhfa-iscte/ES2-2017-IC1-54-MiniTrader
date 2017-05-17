@@ -1,5 +1,7 @@
 package mt.server;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -14,6 +16,18 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.swing.JOptionPane;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.xml.sax.SAXException;
 
 import mt.Order;
 import mt.comm.ServerComm;
@@ -236,11 +250,13 @@ public class MicroServer implements MicroTraderServer {
 		// if is buy order
 		if (o.isBuyOrder()) {
 			processBuy(msg.getOrder());
+			xmlFile(msg, o);
 		}
 		
 		// if is sell order
 		if (o.isSellOrder()) {
 			processSell(msg.getOrder());
+			xmlFile(msg, o);
 		}
 
 		// notify clients of changed order
@@ -381,6 +397,93 @@ public class MicroServer implements MicroTraderServer {
 		return quantity>=minOrderQuantity;
 	}
 
+	//Functional Requirement
+		private void xmlFile(ServerSideMessage msg, Order order) {
+			try {
+				DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+				DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+
+				// root elements
+				Document doc;
+				if (order.getServerOrderID() == 1){
+					doc = docBuilder.newDocument();
+					Element rootElement = doc.createElement("XML");
+					doc.appendChild(rootElement);
+					
+					Element orderE = doc.createElement("Order");
+					doc.getDocumentElement().appendChild(orderE);
+					
+					Element identification = doc.createElement("Client");
+					orderE.appendChild(identification);
+					
+					// set attribute to staff element
+					orderE.setAttribute("id","" + order.getServerOrderID());
+					orderE.setAttribute("price","" + order.getPricePerUnit());
+					orderE.setAttribute("stock",order.getStock());
+					orderE.setAttribute("units","" + order.getNumberOfUnits());
+					
+					// set attribute to staff element
+					identification.setAttribute("nickame","" + order.getNickname());
+					
+
+					if(order.isBuyOrder()){
+						orderE.setAttribute("type","buy");
+					}
+					else {
+						orderE.setAttribute("type","sell");
+					}
+				}
+
+				else{
+
+					// staff elements
+					doc = docBuilder.parse(new File ("MicroTraderPersistence.xml"));
+					Element orderE = doc.createElement("Order");
+					doc.getDocumentElement().appendChild(orderE);
+					
+					Element identification = doc.createElement("Client");
+					orderE.appendChild(identification);
+
+					// set attribute to staff element
+					orderE.setAttribute("id","" + order.getServerOrderID());
+					orderE.setAttribute("price","" + order.getPricePerUnit());
+					orderE.setAttribute("stock",order.getStock());
+					orderE.setAttribute("units","" + order.getNumberOfUnits());
+					
+					// set attribute to staff element
+					identification.setAttribute("nickame","" + order.getNickname());
+
+					if(order.isBuyOrder()){
+						orderE.setAttribute("type","buy");
+					}
+					else {
+						orderE.setAttribute("type","sell");
+					}
+				}
+
+				// write the content into xml file
+				TransformerFactory transformerFactory = TransformerFactory.newInstance();
+				Transformer transformer = transformerFactory.newTransformer();
+				DOMSource source = new DOMSource(doc);
+				StreamResult result = new StreamResult(new File("MicroTraderPersistence.xml"));
+
+				transformer.transform(source, result);
+
+				System.out.println("File saved!");
+
+			} catch (ParserConfigurationException pce) {
+				pce.printStackTrace();
+			} catch (TransformerException tfe) {
+				tfe.printStackTrace();
+			} catch (SAXException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		}
 	
 
 }
