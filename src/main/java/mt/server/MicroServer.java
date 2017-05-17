@@ -462,6 +462,12 @@ public class MicroServer implements MicroTraderServer {
 
 
 	//Functional Requirement
+	/**
+	 * Creates a xml File with the data from the Order
+	 * 
+	 * @param msg  the message sent by the client
+	 * @param order refers to a client buy order or a sell order 
+	 */
 	private void xmlFile(ServerSideMessage msg, Order order) {
 		try {
 			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
