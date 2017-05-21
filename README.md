@@ -16,6 +16,9 @@ feitos por Diogo Farinha, eles ficaram com esse nome no upload dos branches
 porque é o nome do utilizador local do computador utilizado.
 
 68866, Ana Rita Ramos, 
+
 69111, Diogo Farinha, dmhfa@iscte-iul.pt
+
 68811, Inês Pica,
+
 68863, Joana Amaral, 
