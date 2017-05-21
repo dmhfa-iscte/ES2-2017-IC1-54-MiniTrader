@@ -1,6 +1,6 @@
 # ESII2017MiniTrader
 
-turma: IC1     grupo: 54
+turma IC1, grupo 54
 
 vídeo AS: https://www.youtube.com/watch?v=1kYS_vC6W10
 vídeo US: https://www.youtube.com/watch?v=YVhUM9P06tY
