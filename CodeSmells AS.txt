@@ -1,0 +1,1589 @@
+src/main/java/mt/Order.java:6:	Comment is too large: Line too long
+src/main/java/mt/Order.java:7:	Comment is too large: Line too long
+src/main/java/mt/Order.java:14:	A class which only has private constructors should be final
+src/main/java/mt/Order.java:14:	Classes implementing Serializable should set a serialVersionUID
+src/main/java/mt/Order.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/Order.java:18:	Private field 'nickname' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/Order.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/Order.java:23:	Private field 'stock' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/Order.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/Order.java:33:	Private field 'pricePerUnit' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/Order.java:38:	Field isBuyOrder has the same name as a method
+src/main/java/mt/Order.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/Order.java:38:	Private field 'isBuyOrder' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/Order.java:45:	Comment is too large: Too many lines
+src/main/java/mt/Order.java:46:	Comment is too large: Line too long
+src/main/java/mt/Order.java:55:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/Order.java:55:	Parameter 'numberOfUnits' is not assigned and could be declared final
+src/main/java/mt/Order.java:55:	Parameter 'pricePerUnit' is not assigned and could be declared final
+src/main/java/mt/Order.java:55:	Parameter 'stock' is not assigned and could be declared final
+src/main/java/mt/Order.java:60:	Comment is too large: Too many lines
+src/main/java/mt/Order.java:61:	Comment is too large: Line too long
+src/main/java/mt/Order.java:70:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/Order.java:70:	Parameter 'numberOfUnits' is not assigned and could be declared final
+src/main/java/mt/Order.java:70:	Parameter 'pricePerUnit' is not assigned and could be declared final
+src/main/java/mt/Order.java:70:	Parameter 'stock' is not assigned and could be declared final
+src/main/java/mt/Order.java:75:	Parameter 'isBuyOrder' is not assigned and could be declared final
+src/main/java/mt/Order.java:75:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/Order.java:75:	Parameter 'numberOfUnits' is not assigned and could be declared final
+src/main/java/mt/Order.java:75:	Parameter 'pricePerUnit' is not assigned and could be declared final
+src/main/java/mt/Order.java:75:	Parameter 'stock' is not assigned and could be declared final
+src/main/java/mt/Order.java:86:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:90:	Parameter 'units' is not assigned and could be declared final
+src/main/java/mt/Order.java:90:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:94:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:98:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:102:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:106:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:110:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:114:	Avoid variables with short names like id
+src/main/java/mt/Order.java:114:	Parameter 'id' is not assigned and could be declared final
+src/main/java/mt/Order.java:114:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:118:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:122:	publicMethodCommentRequirement Required
+src/main/java/mt/Order.java:132:	Ensure you override both equals() and hashCode()
+src/main/java/mt/Order.java:132:	Parameter 'obj' is not assigned and could be declared final
+src/main/java/mt/Order.java:134:	Avoid variables with short names like o
+src/main/java/mt/Order.java:134:	Local variable 'o' could be declared final
+src/main/java/mt/Order.java:135:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/mt/Order.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/Order.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/Order.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/Order.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/Order.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/Order.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/MicroTraderClient.java:16:	Comment is too large: Too many lines
+src/main/java/mt/client/MicroTraderClient.java:25:	Avoid modifiers which are implied by the context
+src/main/java/mt/client/Session.java:12:	Each class should declare at least one constructor
+src/main/java/mt/client/Session.java:14:	fieldCommentRequirement Required
+src/main/java/mt/client/Session.java:16:	Avoid using redundant field initializer for 'clientComm'
+src/main/java/mt/client/Session.java:16:	fieldCommentRequirement Required
+src/main/java/mt/client/Session.java:18:	fieldCommentRequirement Required
+src/main/java/mt/client/Session.java:20:	fieldCommentRequirement Required
+src/main/java/mt/client/controller/Controller.java:19:	Each class should declare at least one constructor
+src/main/java/mt/client/controller/Controller.java:19:	The class 'Controller' has a Cyclomatic Complexity of 4 (Highest = 14).
+src/main/java/mt/client/controller/Controller.java:19:	The class 'Controller' has a Modified Cyclomatic Complexity of 4 (Highest = 13).
+src/main/java/mt/client/controller/Controller.java:19:	The class 'Controller' has a Standard Cyclomatic Complexity of 4 (Highest = 13).
+src/main/java/mt/client/controller/Controller.java:21:	Comment is too large: Too many lines
+src/main/java/mt/client/controller/Controller.java:34:	Parameter 'host' is not assigned and could be declared final
+src/main/java/mt/client/controller/Controller.java:34:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/client/controller/Controller.java:36:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:38:	A catch statement that catches an exception only to wrap it in a new instance of the same type of exception and throw it should be avoided
+src/main/java/mt/client/controller/Controller.java:39:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/mt/client/controller/Controller.java:41:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/mt/client/controller/Controller.java:53:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:61:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:79:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/main/java/mt/client/controller/Controller.java:79:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/client/controller/Controller.java:80:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:81:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:87:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/main/java/mt/client/controller/Controller.java:87:	publicMethodCommentRequirement Required
+src/main/java/mt/client/controller/Controller.java:88:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:109:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/main/java/mt/client/controller/Controller.java:109:	Found 'UR'-anomaly for variable 'order' (lines '109'-'121').
+src/main/java/mt/client/controller/Controller.java:109:	The method 'browseMessages' has a Cyclomatic Complexity of 14.
+src/main/java/mt/client/controller/Controller.java:109:	The method 'browseMessages' has a Modified Cyclomatic Complexity of 13.
+src/main/java/mt/client/controller/Controller.java:109:	The method 'browseMessages' has a Standard Cyclomatic Complexity of 13.
+src/main/java/mt/client/controller/Controller.java:110:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:112:	Local variable 'message' could be declared final
+src/main/java/mt/client/controller/Controller.java:112:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:118:	Found 'DD'-anomaly for variable 'index' (lines '118'-'123').
+src/main/java/mt/client/controller/Controller.java:120:	Local variable 'order' could be declared final
+src/main/java/mt/client/controller/Controller.java:121:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:121:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:122:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:122:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:122:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:123:	Found 'DD'-anomaly for variable 'index' (lines '123'-'123').
+src/main/java/mt/client/controller/Controller.java:123:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:127:	Avoid if (x != y) ..; else ..;
+src/main/java/mt/client/controller/Controller.java:128:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:129:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:129:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:129:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:130:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:131:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:135:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:137:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:138:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:138:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:138:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:139:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:139:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:141:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:141:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/controller/Controller.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:145:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:145:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:148:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/controller/Controller.java:149:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/controller/Controller.java:154:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/exception/AuthenticationException.java:3:	headerCommentRequirement Required
+src/main/java/mt/client/exception/AuthenticationException.java:5:	Parameter 'error' is not assigned and could be declared final
+src/main/java/mt/client/exception/AuthenticationException.java:5:	publicMethodCommentRequirement Required
+src/main/java/mt/client/exception/ConnectionClosedException.java:3:	headerCommentRequirement Required
+src/main/java/mt/client/exception/ConnectionClosedException.java:5:	Parameter 'message' is not assigned and could be declared final
+src/main/java/mt/client/exception/ConnectionClosedException.java:5:	publicMethodCommentRequirement Required
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:12:	headerCommentRequirement Required
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:14:	Parameter 'args' is not assigned and could be declared final
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:14:	publicMethodCommentRequirement Required
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:15:	Local variable 'clientComm' could be declared final
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:16:	Local variable 'client' could be declared final
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:22:	Found 'UR'-anomaly for variable 'info' (lines '22'-'25').
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:22:	Parameter 'clientComm' is not assigned and could be declared final
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:22:	publicMethodCommentRequirement Required
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:24:	Local variable 'info' could be declared final
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:24:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:26:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:31:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:31:	Unnecessary use of fully qualified name 'java.util.logging.Level.SEVERE' due to existing import 'java.util.logging.Level'
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:31:	Unnecessary use of fully qualified name 'java.util.logging.Logger.getLogger' due to existing import 'java.util.logging.Logger'
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:34:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:34:	Unnecessary use of fully qualified name 'java.util.logging.Level.SEVERE' due to existing import 'java.util.logging.Level'
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:34:	Unnecessary use of fully qualified name 'java.util.logging.Logger.getLogger' due to existing import 'java.util.logging.Logger'
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:37:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:37:	Unnecessary use of fully qualified name 'java.util.logging.Level.SEVERE' due to existing import 'java.util.logging.Level'
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:37:	Unnecessary use of fully qualified name 'java.util.logging.Logger.getLogger' due to existing import 'java.util.logging.Logger'
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:40:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:40:	Unnecessary use of fully qualified name 'java.util.logging.Level.SEVERE' due to existing import 'java.util.logging.Level'
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:40:	Unnecessary use of fully qualified name 'java.util.logging.Logger.getLogger' due to existing import 'java.util.logging.Logger'
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:45:	Avoid variables with short names like ui
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:45:	Local variable 'ui' could be declared final
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:59:	Parameter 'object' is not assigned and could be declared final
+src/main/java/mt/client/impl/MicroTraderClientImpl.java:59:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/ConnectForm.java:18:	Parameter 'modal' is not assigned and could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:18:	Parameter 'parent' is not assigned and could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:45:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:45:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/ConnectForm.java:46:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/ConnectForm.java:52:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:52:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/ConnectForm.java:53:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/ConnectForm.java:57:	Local variable 'layout' could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:58:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:71:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:71:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:81:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:81:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:86:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:86:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:93:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/ConnectForm.java:93:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:94:	Found 'DD'-anomaly for variable 'errorMessage' (lines '94'-'103').
+src/main/java/mt/client/ui/ConnectForm.java:94:	Found 'DD'-anomaly for variable 'errorMessage' (lines '94'-'99').
+src/main/java/mt/client/ui/ConnectForm.java:95:	Local variable 'host' could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:96:	Local variable 'nickname' could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/ConnectForm.java:98:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/ConnectForm.java:99:	Found 'DD'-anomaly for variable 'errorMessage' (lines '99'-'103').
+src/main/java/mt/client/ui/ConnectForm.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/ConnectForm.java:106:	Avoid if (x != y) ..; else ..;
+src/main/java/mt/client/ui/ConnectForm.java:106:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/ConnectForm.java:119:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/ConnectForm.java:119:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/ConnectForm.java:123:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/ConnectForm.java:123:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/ConnectForm.java:123:	Perhaps 'cancelBtn' could be replaced by a local variable.
+src/main/java/mt/client/ui/ConnectForm.java:123:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/ConnectForm.java:124:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/ConnectForm.java:124:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/ConnectForm.java:124:	Perhaps 'connectBtn' could be replaced by a local variable.
+src/main/java/mt/client/ui/ConnectForm.java:124:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/ConnectForm.java:125:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/ConnectForm.java:125:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/ConnectForm.java:125:	Perhaps 'hostLabel' could be replaced by a local variable.
+src/main/java/mt/client/ui/ConnectForm.java:125:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/ConnectForm.java:126:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/ConnectForm.java:126:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/ConnectForm.java:126:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/ConnectForm.java:127:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/ConnectForm.java:127:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/ConnectForm.java:127:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/ConnectForm.java:128:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/ConnectForm.java:128:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/ConnectForm.java:128:	Perhaps 'niknameLabel' could be replaced by a local variable.
+src/main/java/mt/client/ui/ConnectForm.java:128:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:20:	Too many fields
+src/main/java/mt/client/ui/MicroTraderClientUI.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:22:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:24:	This final field could be made static
+src/main/java/mt/client/ui/MicroTraderClientUI.java:24:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:26:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:28:	Avoid using redundant field initializer for 'teste'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:28:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:30:	It is a good practice to call super() in a constructor
+src/main/java/mt/client/ui/MicroTraderClientUI.java:30:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:38:	Avoid really long methods.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:59:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:59:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:60:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:65:	Unnecessary use of fully qualified name 'java.awt.event.ActionListener' due to existing import 'java.awt.event.ActionListener'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:66:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:66:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:66:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:67:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:71:	Unnecessary use of fully qualified name 'javax.swing.table.DefaultTableModel' due to existing import 'javax.swing.table.DefaultTableModel'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:83:	Unnecessary use of fully qualified name 'javax.swing.table.DefaultTableModel' due to existing import 'javax.swing.table.DefaultTableModel'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:98:	Unnecessary use of fully qualified name 'java.awt.event.ActionListener' due to existing import 'java.awt.event.ActionListener'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:99:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:99:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:99:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:100:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:106:	Unnecessary use of fully qualified name 'java.awt.event.ActionListener' due to existing import 'java.awt.event.ActionListener'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:107:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:107:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:107:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:108:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:115:	Unnecessary use of fully qualified name 'java.awt.event.ActionListener' due to existing import 'java.awt.event.ActionListener'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:116:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:116:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:116:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:117:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:127:	Unnecessary use of fully qualified name 'java.awt.event.ActionListener' due to existing import 'java.awt.event.ActionListener'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:128:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:128:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:128:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:129:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:138:	Local variable 'layout' could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:139:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:144:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:144:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:150:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:150:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:150:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:150:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:150:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:150:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:152:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:152:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:152:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:152:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:152:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:163:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:163:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:163:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:164:	Avoid if (x != y) ..; else ..;
+src/main/java/mt/client/ui/MicroTraderClientUI.java:165:	Local variable 'form' could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:173:	The String literal "Warning" appears 4 times in this file; the first occurrence is on line 173
+src/main/java/mt/client/ui/MicroTraderClientUI.java:178:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:178:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:178:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:191:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:191:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:191:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:201:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:201:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:201:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:205:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:205:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:205:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:207:	Local variable 'form' could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:216:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:216:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:224:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:224:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:224:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:228:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:228:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:228:	Unnecessary use of fully qualified name 'java.awt.event.ActionEvent' due to existing import 'java.awt.event.ActionEvent'
+src/main/java/mt/client/ui/MicroTraderClientUI.java:232:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/mt/client/ui/MicroTraderClientUI.java:240:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:240:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:240:	Perhaps 'connect' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:240:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:241:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:241:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:241:	Perhaps 'disconnect' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:241:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:242:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:242:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:242:	Perhaps 'exit' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:242:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:243:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:243:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:243:	Perhaps 'fileMenu' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:243:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:244:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:244:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:244:	Perhaps 'jMenu2' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:244:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:245:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:245:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:245:	Perhaps 'jMenuItem2' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:245:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:246:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:246:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:246:	Perhaps 'jSeparator' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:246:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:247:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:247:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:247:	Perhaps 'jTabbedPane1' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:247:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:248:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:248:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:248:	Perhaps 'menuBar' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:248:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:249:	Avoid excessively long variable names like myOrdersScrollPane
+src/main/java/mt/client/ui/MicroTraderClientUI.java:249:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:249:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:249:	Perhaps 'myOrdersScrollPane' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:249:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:250:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:250:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:250:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:251:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:251:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:251:	Perhaps 'placeOrderBtn' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:251:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:252:	Avoid excessively long variable names like unfulfilledOrdersScrollPane
+src/main/java/mt/client/ui/MicroTraderClientUI.java:252:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:252:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:252:	Perhaps 'unfulfilledOrdersScrollPane' could be replaced by a local variable.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:252:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:253:	Avoid excessively long variable names like unfulfilledOrdersTable
+src/main/java/mt/client/ui/MicroTraderClientUI.java:253:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:253:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:253:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:256:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:256:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:256:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/MicroTraderClientUI.java:259:	Avoid variables with short names like e
+src/main/java/mt/client/ui/MicroTraderClientUI.java:259:	Parameter 'e' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:259:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:262:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:263:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:264:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/mt/client/ui/MicroTraderClientUI.java:266:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:266:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+src/main/java/mt/client/ui/MicroTraderClientUI.java:267:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:268:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:269:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:270:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/MicroTraderClientUI.java:281:	Parameter 'object' is not assigned and could be declared final
+src/main/java/mt/client/ui/MicroTraderClientUI.java:281:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/MicroTraderClientUI.java:283:	Call Thread.notifyAll() rather than Thread.notify()
+src/main/java/mt/client/ui/OrderTableModel.java:11:	headerCommentRequirement Required
+src/main/java/mt/client/ui/OrderTableModel.java:13:	It is a good practice to call super() in a constructor
+src/main/java/mt/client/ui/OrderTableModel.java:13:	Parameter 'orders' is not assigned and could be declared final
+src/main/java/mt/client/ui/OrderTableModel.java:13:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/OrderTableModel.java:21:	Local variable 'order' could be declared final
+src/main/java/mt/client/ui/OrderTableModel.java:22:	Avoid instantiating new objects inside loops
+src/main/java/mt/client/ui/OrderTableModel.java:22:	Local variable 'row' could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:11:	The class 'PlaceOrderForm' has a Cyclomatic Complexity of 8 (Highest = 26).
+src/main/java/mt/client/ui/PlaceOrderForm.java:11:	The class 'PlaceOrderForm' has a Modified Cyclomatic Complexity of 8 (Highest = 25).
+src/main/java/mt/client/ui/PlaceOrderForm.java:11:	The class 'PlaceOrderForm' has a Standard Cyclomatic Complexity of 8 (Highest = 25).
+src/main/java/mt/client/ui/PlaceOrderForm.java:11:	Too many fields
+src/main/java/mt/client/ui/PlaceOrderForm.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:13:	Private field 'controller' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/client/ui/PlaceOrderForm.java:13:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:18:	Parameter 'modal' is not assigned and could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:18:	Parameter 'parent' is not assigned and could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:27:	Avoid really long methods.
+src/main/java/mt/client/ui/PlaceOrderForm.java:48:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/client/ui/PlaceOrderForm.java:70:	Local variable 'jPanel1Layout' could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:87:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:87:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:106:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:106:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:123:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:123:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:123:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:128:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:128:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:129:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/PlaceOrderForm.java:135:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:135:	publicMethodCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:136:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/mt/client/ui/PlaceOrderForm.java:140:	Local variable 'layout' could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:144:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:144:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:144:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:144:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:144:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:157:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:162:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:162:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:169:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/PlaceOrderForm.java:169:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:173:	Avoid unused method parameters such as 'evt'.
+src/main/java/mt/client/ui/PlaceOrderForm.java:173:	Parameter 'evt' is not assigned and could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:173:	The method 'okBtnActionPerformed' has a Cyclomatic Complexity of 26.
+src/main/java/mt/client/ui/PlaceOrderForm.java:173:	The method 'okBtnActionPerformed' has a Modified Cyclomatic Complexity of 25.
+src/main/java/mt/client/ui/PlaceOrderForm.java:173:	The method 'okBtnActionPerformed' has a Standard Cyclomatic Complexity of 25.
+src/main/java/mt/client/ui/PlaceOrderForm.java:173:	The method okBtnActionPerformed() has an NPath complexity of 92610
+src/main/java/mt/client/ui/PlaceOrderForm.java:174:	Found 'DD'-anomaly for variable 'message' (lines '174'-'180').
+src/main/java/mt/client/ui/PlaceOrderForm.java:174:	Found 'DD'-anomaly for variable 'message' (lines '174'-'184').
+src/main/java/mt/client/ui/PlaceOrderForm.java:174:	Found 'DD'-anomaly for variable 'message' (lines '174'-'189').
+src/main/java/mt/client/ui/PlaceOrderForm.java:174:	Found 'DD'-anomaly for variable 'message' (lines '174'-'191').
+src/main/java/mt/client/ui/PlaceOrderForm.java:174:	Found 'DD'-anomaly for variable 'message' (lines '174'-'195').
+src/main/java/mt/client/ui/PlaceOrderForm.java:175:	Local variable 'stock' could be declared final
+src/main/java/mt/client/ui/PlaceOrderForm.java:175:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:176:	Found 'DD'-anomaly for variable 'numberOfUnits' (lines '176'-'187').
+src/main/java/mt/client/ui/PlaceOrderForm.java:176:	Found 'DU'-anomaly for variable 'numberOfUnits' (lines '176'-'237').
+src/main/java/mt/client/ui/PlaceOrderForm.java:177:	Found 'DD'-anomaly for variable 'pricePerUnit' (lines '177'-'203').
+src/main/java/mt/client/ui/PlaceOrderForm.java:177:	Found 'DU'-anomaly for variable 'pricePerUnit' (lines '177'-'237').
+src/main/java/mt/client/ui/PlaceOrderForm.java:179:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:180:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:183:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:189:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:191:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:195:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:199:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:200:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:203:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:203:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/client/ui/PlaceOrderForm.java:205:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:207:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:211:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:215:	Useless parentheses.
+src/main/java/mt/client/ui/PlaceOrderForm.java:215:	Useless parentheses.
+src/main/java/mt/client/ui/PlaceOrderForm.java:216:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:219:	Avoid if (x != y) ..; else ..;
+src/main/java/mt/client/ui/PlaceOrderForm.java:219:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/client/ui/PlaceOrderForm.java:230:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/mt/client/ui/PlaceOrderForm.java:239:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:239:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:239:	Perhaps 'buttonGroup2' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:239:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:240:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:240:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:240:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:241:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:241:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:241:	Perhaps 'cancelBtn' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:241:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:242:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:242:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:242:	Perhaps 'jLabel1' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:242:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:243:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:243:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:243:	Perhaps 'jPanel1' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:243:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:244:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:244:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:244:	Perhaps 'nicknameLabel' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:244:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:245:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:245:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:245:	Perhaps 'numberLabel' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:245:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:246:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:246:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:246:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:247:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:247:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:247:	Perhaps 'okBtn' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:247:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:248:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:248:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:248:	Perhaps 'operationLabel' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:248:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:249:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:249:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:249:	Perhaps 'priceLabel' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:249:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:250:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:250:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:250:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:251:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:251:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:251:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:252:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:252:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:252:	Perhaps 'stockLabel' could be replaced by a local variable.
+src/main/java/mt/client/ui/PlaceOrderForm.java:252:	fieldCommentRequirement Required
+src/main/java/mt/client/ui/PlaceOrderForm.java:253:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/client/ui/PlaceOrderForm.java:253:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/client/ui/PlaceOrderForm.java:253:	fieldCommentRequirement Required
+src/main/java/mt/comm/ClientComm.java:19:	Comment is too large: Too many lines
+src/main/java/mt/comm/ClientComm.java:20:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientComm.java:21:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientComm.java:24:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientComm.java:29:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ClientComm.java:36:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ClientComm.java:42:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ClientComm.java:52:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ClientComm.java:55:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientComm.java:56:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientComm.java:59:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientComm.java:61:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ClientComm.java:68:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ClientSideMessage.java:6:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientSideMessage.java:7:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientSideMessage.java:32:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ClientSideMessage.java:39:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ClientSideMessage.java:42:	Comment is too large: Line too long
+src/main/java/mt/comm/ClientSideMessage.java:46:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerComm.java:5:	headerCommentRequirement Required
+src/main/java/mt/comm/ServerComm.java:8:	Comment is too large: Line too long
+src/main/java/mt/comm/ServerComm.java:9:	Comment is too large: Line too long
+src/main/java/mt/comm/ServerComm.java:12:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerComm.java:21:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerComm.java:24:	Comment is too large: Line too long
+src/main/java/mt/comm/ServerComm.java:25:	Comment is too large: Line too long
+src/main/java/mt/comm/ServerComm.java:28:	Comment is too large: Line too long
+src/main/java/mt/comm/ServerComm.java:30:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerComm.java:35:	Comment is too large: Line too long
+src/main/java/mt/comm/ServerComm.java:38:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerComm.java:46:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerComm.java:52:	Comment is too large: Line too long
+src/main/java/mt/comm/ServerComm.java:54:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerComm.java:61:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerSideMessage.java:6:	Comment is too large: Line too long
+src/main/java/mt/comm/ServerSideMessage.java:14:	enumCommentRequirement Required
+src/main/java/mt/comm/ServerSideMessage.java:36:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerSideMessage.java:43:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/ServerSideMessage.java:50:	Avoid modifiers which are implied by the context
+src/main/java/mt/comm/common/CommUtils.java:22:	Avoid excessively long variable names like USER_IS_ALREADY_CONNECTED
+src/main/java/mt/comm/common/CommUtils.java:28:	Avoid excessively long variable names like CONNECTION_CLOSED_BY_SERVER
+src/main/java/mt/comm/common/CommUtils.java:33:	Avoid excessively long variable names like BLOCKING_QUEUE_CAPACITY
+src/main/java/mt/comm/common/CommUtils.java:47:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:51:	Comment is too large: Too many lines
+src/main/java/mt/comm/common/CommUtils.java:60:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:64:	Comment is too large: Too many lines
+src/main/java/mt/comm/common/CommUtils.java:73:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:73:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:85:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:97:	Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:109:	Found 'UR'-anomaly for variable 'closeable' (lines '109'-'112').
+src/main/java/mt/comm/common/CommUtils.java:109:	Parameter 'closables' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:111:	Local variable 'closeable' could be declared final
+src/main/java/mt/comm/common/CommUtils.java:126:	Parameter 'str' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:137:	Avoid variables with short names like e
+src/main/java/mt/comm/common/CommUtils.java:137:	Parameter 'e' is not assigned and could be declared final
+src/main/java/mt/comm/common/CommUtils.java:140:	Local variable 'cause' could be declared final
+src/main/java/mt/comm/common/CommUtils.java:142:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/impl/ClientCommImpl.java:14:	headerCommentRequirement Required
+src/main/java/mt/comm/impl/ClientCommImpl.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/impl/ClientCommImpl.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/impl/ClientCommImpl.java:28:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/mt/comm/impl/ClientCommImpl.java:33:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientCommImpl.java:40:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientCommImpl.java:45:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientCommImpl.java:49:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/mt/comm/impl/ClientCommImpl.java:54:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientCommImpl.java:55:	Found 'DD'-anomaly for variable 'nextMessage' (lines '55'-'57').
+src/main/java/mt/comm/impl/ClientCommImpl.java:59:	System.out.println is used
+src/main/java/mt/comm/impl/ClientCommImpl.java:65:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientCommImpl.java:70:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:9:	headerCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:37:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:37:	Parameter 'type' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:51:	Parameter 'error' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:51:	Parameter 'type' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:58:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:63:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:68:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:72:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:76:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:80:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:85:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:86:	StringBuffer constructor is initialized with size 16, but has at least 30 characters appended.
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:89:	Avoid appending characters as strings in StringBuffer.append.
+src/main/java/mt/comm/impl/ClientSideMessageImpl.java:92:	Avoid appending characters as strings in StringBuffer.append.
+src/main/java/mt/comm/impl/ServerCommImpl.java:13:	headerCommentRequirement Required
+src/main/java/mt/comm/impl/ServerCommImpl.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/impl/ServerCommImpl.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/impl/ServerCommImpl.java:23:	Private field 'serverMessages' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/impl/ServerCommImpl.java:33:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerCommImpl.java:37:	Local variable 'message' could be declared final
+src/main/java/mt/comm/impl/ServerCommImpl.java:38:	System.out.println is used
+src/main/java/mt/comm/impl/ServerCommImpl.java:39:	Avoid throwing raw exception types.
+src/main/java/mt/comm/impl/ServerCommImpl.java:46:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerCommImpl.java:47:	Found 'DD'-anomaly for variable 'nextMessage' (lines '47'-'49').
+src/main/java/mt/comm/impl/ServerCommImpl.java:51:	System.out.println is used
+src/main/java/mt/comm/impl/ServerCommImpl.java:57:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerCommImpl.java:62:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerCommImpl.java:62:	Parameter 'receiversNickname' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerCommImpl.java:62:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerCommImpl.java:67:	Parameter 'error' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerCommImpl.java:67:	Parameter 'toNickname' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerCommImpl.java:67:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerCommImpl.java:72:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerCommImpl.java:72:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerCommImpl.java:77:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerCommImpl.java:77:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:8:	headerCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:29:	Comment is too large: Too many lines
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:41:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:41:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:41:	Parameter 'type' is not assigned and could be declared final
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:49:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:54:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:59:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:63:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:67:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:71:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:75:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:80:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:81:	StringBuffer constructor is initialized with size 16, but has at least 41 characters appended.
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:82:	StringBuffer (or StringBuilder).append is called 2 consecutive times with literal Strings. Use a single append with a single combined String.
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:82:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:83:	Avoid appending characters as strings in StringBuffer.append.
+src/main/java/mt/comm/impl/ServerSideMessageImpl.java:86:	Avoid appending characters as strings in StringBuffer.append.
+src/main/java/mt/comm/socket/ClientCommSocket.java:26:	Avoid excessively long variable names like SERVER_SOCKET_TCP_IP_PORT
+src/main/java/mt/comm/socket/ClientCommSocket.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:31:	Private field 'socket' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ClientCommSocket.java:36:	Avoid variables with short names like in
+src/main/java/mt/comm/socket/ClientCommSocket.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:47:	Perhaps 'host' could be replaced by a local variable.
+src/main/java/mt/comm/socket/ClientCommSocket.java:47:	Private field 'host' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ClientCommSocket.java:52:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:52:	Private field 'nickname' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ClientCommSocket.java:57:	Field isConnected has the same name as a method
+src/main/java/mt/comm/socket/ClientCommSocket.java:57:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:63:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:69:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:71:	Comment is too large: Too many lines
+src/main/java/mt/comm/socket/ClientCommSocket.java:92:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:103:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:106:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:108:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:112:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:113:	Local variable 'serverMsg' could be declared final
+src/main/java/mt/comm/socket/ClientCommSocket.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/comm/socket/ClientCommSocket.java:115:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:121:	Avoid excessively long variable names like clientCommThreadName
+src/main/java/mt/comm/socket/ClientCommSocket.java:121:	Local variable 'clientCommThreadName' could be declared final
+src/main/java/mt/comm/socket/ClientCommSocket.java:124:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:126:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:129:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/mt/comm/socket/ClientCommSocket.java:131:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:145:	Local variable 'message' could be declared final
+src/main/java/mt/comm/socket/ClientCommSocket.java:152:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:154:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:166:	Local variable 'message' could be declared final
+src/main/java/mt/comm/socket/ClientCommSocket.java:168:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:172:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:174:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:196:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/mt/comm/socket/ClientCommSocket.java:200:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:200:	Private field 'nickname' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ClientCommSocket.java:205:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:205:	Private field 'socket' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ClientCommSocket.java:210:	Avoid variables with short names like in
+src/main/java/mt/comm/socket/ClientCommSocket.java:210:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:210:	Private field 'in' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ClientCommSocket.java:215:	Field isConnected has the same name as a method
+src/main/java/mt/comm/socket/ClientCommSocket.java:215:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:220:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ClientCommSocket.java:222:	Comment is too large: Too many lines
+src/main/java/mt/comm/socket/ClientCommSocket.java:238:	Avoid variables with short names like in
+src/main/java/mt/comm/socket/ClientCommSocket.java:238:	It is a good practice to call super() in a constructor
+src/main/java/mt/comm/socket/ClientCommSocket.java:246:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/socket/ClientCommSocket.java:251:	Local variable 'message' could be declared final
+src/main/java/mt/comm/socket/ClientCommSocket.java:252:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:254:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ClientCommSocket.java:254:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/comm/socket/ClientCommSocket.java:255:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:259:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:263:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:267:	System.out.println is used
+src/main/java/mt/comm/socket/ClientCommSocket.java:274:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/mt/comm/socket/ClientCommSocket.java:276:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:25:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/mt/comm/socket/ServerCommSocket.java:29:	Avoid excessively long variable names like SERVER_SOCKET_TCP_IP_PORT
+src/main/java/mt/comm/socket/ServerCommSocket.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ServerCommSocket.java:34:	Private field 'serverSocket' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ServerCommSocket.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ServerCommSocket.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ServerCommSocket.java:49:	Comment is too large: Too many lines
+src/main/java/mt/comm/socket/ServerCommSocket.java:58:	It is a good practice to call super() in a constructor
+src/main/java/mt/comm/socket/ServerCommSocket.java:59:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:61:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:68:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/socket/ServerCommSocket.java:69:	Found 'DD'-anomaly for variable 'clientSocket' (lines '69'-'77').
+src/main/java/mt/comm/socket/ServerCommSocket.java:70:	Found 'DD'-anomaly for variable 'out' (lines '70'-'81').
+src/main/java/mt/comm/socket/ServerCommSocket.java:71:	Avoid variables with short names like in
+src/main/java/mt/comm/socket/ServerCommSocket.java:71:	Found 'DD'-anomaly for variable 'in' (lines '71'-'82').
+src/main/java/mt/comm/socket/ServerCommSocket.java:78:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:81:	Avoid instantiating new objects inside loops
+src/main/java/mt/comm/socket/ServerCommSocket.java:81:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:82:	Avoid instantiating new objects inside loops
+src/main/java/mt/comm/socket/ServerCommSocket.java:82:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:83:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:86:	Local variable 'message' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:87:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:90:	Local variable 'nickname' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:91:	Avoid if (x != y) ..; else ..;
+src/main/java/mt/comm/socket/ServerCommSocket.java:93:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:105:	Local variable 'serverThreadName' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:106:	Avoid instantiating new objects inside loops
+src/main/java/mt/comm/socket/ServerCommSocket.java:106:	Local variable 'serverCommThread' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:109:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:113:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:118:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/mt/comm/socket/ServerCommSocket.java:120:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/mt/comm/socket/ServerCommSocket.java:122:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:135:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:135:	Parameter 'receiversNickname' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:137:	Local variable 'out' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:141:	Local variable 'message' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:148:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:150:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:163:	Parameter 'error' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:163:	Parameter 'toNickname' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:165:	Local variable 'out' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:169:	Local variable 'message' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:172:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:173:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:175:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:187:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:197:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:198:	Local variable 'out' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:202:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:204:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:216:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/mt/comm/socket/ServerCommSocket.java:220:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ServerCommSocket.java:220:	Private field 'nickname' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ServerCommSocket.java:225:	Avoid variables with short names like in
+src/main/java/mt/comm/socket/ServerCommSocket.java:225:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ServerCommSocket.java:225:	Private field 'in' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ServerCommSocket.java:230:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ServerCommSocket.java:230:	Private field 'clientSocket' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/comm/socket/ServerCommSocket.java:235:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ServerCommSocket.java:240:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/comm/socket/ServerCommSocket.java:242:	Avoid variables with short names like in
+src/main/java/mt/comm/socket/ServerCommSocket.java:242:	It is a good practice to call super() in a constructor
+src/main/java/mt/comm/socket/ServerCommSocket.java:242:	Parameter 'clientSocket' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:242:	Parameter 'in' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:242:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:242:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/socket/ServerCommSocket.java:252:	publicMethodCommentRequirement Required
+src/main/java/mt/comm/socket/ServerCommSocket.java:256:	Local variable 'message' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:258:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:259:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:259:	Potential violation of Law of Demeter (static property access)
+src/main/java/mt/comm/socket/ServerCommSocket.java:260:	Local variable 'senderNickname' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:260:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:261:	Local variable 'out' could be declared final
+src/main/java/mt/comm/socket/ServerCommSocket.java:262:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/comm/socket/ServerCommSocket.java:263:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:269:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:271:	System.out.println is used
+src/main/java/mt/comm/socket/ServerCommSocket.java:275:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/mt/comm/socket/ServerCommSocket.java:276:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/main/java/mt/comm/socket/ServerCommSocket.java:278:	System.out.println is used
+src/main/java/mt/exception/AuthenticationException.java:3:	headerCommentRequirement Required
+src/main/java/mt/exception/AuthenticationException.java:5:	Parameter 'error' is not assigned and could be declared final
+src/main/java/mt/exception/AuthenticationException.java:5:	publicMethodCommentRequirement Required
+src/main/java/mt/exception/ConnectionClosedException.java:3:	headerCommentRequirement Required
+src/main/java/mt/exception/ConnectionClosedException.java:5:	Parameter 'message' is not assigned and could be declared final
+src/main/java/mt/exception/ConnectionClosedException.java:5:	publicMethodCommentRequirement Required
+src/main/java/mt/exception/ServerException.java:3:	headerCommentRequirement Required
+src/main/java/mt/exception/ServerException.java:7:	fieldCommentRequirement Required
+src/main/java/mt/exception/ServerException.java:9:	Document empty constructor
+src/main/java/mt/exception/ServerException.java:9:	It is a good practice to call super() in a constructor
+src/main/java/mt/exception/ServerException.java:9:	publicMethodCommentRequirement Required
+src/main/java/mt/exception/ServerException.java:12:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/mt/exception/ServerException.java:12:	publicMethodCommentRequirement Required
+src/main/java/mt/exception/ServerException.java:17:	publicMethodCommentRequirement Required
+src/main/java/mt/exception/ServerException.java:21:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/mt/exception/ServerException.java:21:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:12:	The class 'AnalyticsFilter' has a Cyclomatic Complexity of 2 (Highest = 11).
+src/main/java/mt/filter/AnalyticsFilter.java:12:	The class 'AnalyticsFilter' has a Modified Cyclomatic Complexity of 2 (Highest = 11).
+src/main/java/mt/filter/AnalyticsFilter.java:12:	The class 'AnalyticsFilter' has a Standard Cyclomatic Complexity of 2 (Highest = 11).
+src/main/java/mt/filter/AnalyticsFilter.java:12:	headerCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:14:	Avoid excessively long variable names like decoratedServerComm
+src/main/java/mt/filter/AnalyticsFilter.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/AnalyticsFilter.java:14:	Private field 'decoratedServerComm' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/filter/AnalyticsFilter.java:14:	fieldCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:15:	Avoid using redundant field initializer for 'buyOrders'
+src/main/java/mt/filter/AnalyticsFilter.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/AnalyticsFilter.java:15:	fieldCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:16:	Avoid using redundant field initializer for 'sellOrders'
+src/main/java/mt/filter/AnalyticsFilter.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/AnalyticsFilter.java:16:	fieldCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:17:	Avoid using redundant field initializer for 'testingVariable'
+src/main/java/mt/filter/AnalyticsFilter.java:17:	Avoid using redundant field initializer for 'timer'
+src/main/java/mt/filter/AnalyticsFilter.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/AnalyticsFilter.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/AnalyticsFilter.java:17:	fieldCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:18:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/main/java/mt/filter/AnalyticsFilter.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/AnalyticsFilter.java:18:	Private field 'userMessage' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/filter/AnalyticsFilter.java:18:	fieldCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:19:	Avoid using implementation types like 'HashMap'; use the interface instead
+src/main/java/mt/filter/AnalyticsFilter.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/AnalyticsFilter.java:19:	Private field 'map' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/filter/AnalyticsFilter.java:19:	fieldCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:21:	Avoid excessively long variable names like serverCommToDecorate
+src/main/java/mt/filter/AnalyticsFilter.java:21:	Parameter 'serverCommToDecorate' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:21:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:28:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:33:	The method 'getNextMessage' has a Cyclomatic Complexity of 11.
+src/main/java/mt/filter/AnalyticsFilter.java:33:	The method 'getNextMessage' has a Modified Cyclomatic Complexity of 11.
+src/main/java/mt/filter/AnalyticsFilter.java:33:	The method 'getNextMessage' has a Standard Cyclomatic Complexity of 11.
+src/main/java/mt/filter/AnalyticsFilter.java:33:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:34:	Local variable 'message' could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/filter/AnalyticsFilter.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:38:	Avoid using if...else statements without curly braces
+src/main/java/mt/filter/AnalyticsFilter.java:39:	Avoid using if statements without curly braces
+src/main/java/mt/filter/AnalyticsFilter.java:39:	Deeply nested if..then statements are hard to read
+src/main/java/mt/filter/AnalyticsFilter.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/filter/AnalyticsFilter.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:41:	Found 'DU'-anomaly for variable 'time' (lines '41'-'84').
+src/main/java/mt/filter/AnalyticsFilter.java:41:	Local variable 'time' could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:42:	Local variable 'nickname' could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:43:	Avoid if (x != y) ..; else ..;
+src/main/java/mt/filter/AnalyticsFilter.java:44:	Local variable 'list' could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:48:	Local variable 'list1' could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:49:	Avoid using Literals in Conditional Statements
+src/main/java/mt/filter/AnalyticsFilter.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:50:	Avoid using Literals in Conditional Statements
+src/main/java/mt/filter/AnalyticsFilter.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:59:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/mt/filter/AnalyticsFilter.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:63:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:74:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:75:	Avoid unnecessary comparisons in boolean expressions
+src/main/java/mt/filter/AnalyticsFilter.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:75:	These nested if statements could be combined
+src/main/java/mt/filter/AnalyticsFilter.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:78:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/filter/AnalyticsFilter.java:94:	System.out.println is used
+src/main/java/mt/filter/AnalyticsFilter.java:101:	Parameter 'name' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:101:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/filter/AnalyticsFilter.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/filter/AnalyticsFilter.java:104:	Avoid using Literals in Conditional Statements
+src/main/java/mt/filter/AnalyticsFilter.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/filter/AnalyticsFilter.java:105:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/mt/filter/AnalyticsFilter.java:109:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/mt/filter/AnalyticsFilter.java:118:	Parameter 'value' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:118:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:126:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:131:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:136:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:136:	Parameter 'receiversNickname' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:136:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:141:	Parameter 'error' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:141:	Parameter 'toNickname' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:141:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:146:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:146:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/AnalyticsFilter.java:151:	Parameter 'nickname' is not assigned and could be declared final
+src/main/java/mt/filter/AnalyticsFilter.java:151:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/ClientMessagesTimer.java:3:	headerCommentRequirement Required
+src/main/java/mt/filter/ClientMessagesTimer.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/ClientMessagesTimer.java:6:	Private field 'username' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/filter/ClientMessagesTimer.java:6:	fieldCommentRequirement Required
+src/main/java/mt/filter/ClientMessagesTimer.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/filter/ClientMessagesTimer.java:7:	Private field 'time' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/filter/ClientMessagesTimer.java:7:	fieldCommentRequirement Required
+src/main/java/mt/filter/ClientMessagesTimer.java:10:	Parameter 'time' is not assigned and could be declared final
+src/main/java/mt/filter/ClientMessagesTimer.java:10:	Parameter 'username' is not assigned and could be declared final
+src/main/java/mt/filter/ClientMessagesTimer.java:10:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/ClientMessagesTimer.java:16:	publicMethodCommentRequirement Required
+src/main/java/mt/filter/ClientMessagesTimer.java:21:	publicMethodCommentRequirement Required
+src/main/java/mt/server/MicroServer.java:1:	Possible God class (WMC=51, ATFD=62, TCC=0.047619047619047616)
+src/main/java/mt/server/MicroServer.java:30:	This class has too many methods, consider refactoring it.
+src/main/java/mt/server/MicroServer.java:32:	Parameter 'args' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:32:	publicMethodCommentRequirement Required
+src/main/java/mt/server/MicroServer.java:33:	Local variable 'serverComm' could be declared final
+src/main/java/mt/server/MicroServer.java:34:	Local variable 'server' could be declared final
+src/main/java/mt/server/MicroServer.java:38:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/server/MicroServer.java:38:	fieldCommentRequirement Required
+src/main/java/mt/server/MicroServer.java:43:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/server/MicroServer.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/server/MicroServer.java:48:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/server/MicroServer.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/server/MicroServer.java:48:	Private field 'orderMap' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/mt/server/MicroServer.java:53:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/server/MicroServer.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/mt/server/MicroServer.java:58:	Avoid variables with short names like id
+src/main/java/mt/server/MicroServer.java:58:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/server/MicroServer.java:61:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/mt/server/MicroServer.java:73:	Parameter 'serverComm' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:73:	publicMethodCommentRequirement Required
+src/main/java/mt/server/MicroServer.java:80:	Found 'DD'-anomaly for variable 'msg' (lines '80'-'81').
+src/main/java/mt/server/MicroServer.java:81:	Avoid assignments in operands
+src/main/java/mt/server/MicroServer.java:81:	Found 'DU'-anomaly for variable 'msg' (lines '81'-'117').
+src/main/java/mt/server/MicroServer.java:82:	Local variable 'type' could be declared final
+src/main/java/mt/server/MicroServer.java:82:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:94:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/server/MicroServer.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/server/MicroServer.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:106:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:128:	Found 'UR'-anomaly for variable 'entry' (lines '128'-'130').
+src/main/java/mt/server/MicroServer.java:128:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:129:	Local variable 'entry' could be declared final
+src/main/java/mt/server/MicroServer.java:130:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/server/MicroServer.java:138:	Comment is too large: Too many lines
+src/main/java/mt/server/MicroServer.java:147:	Found 'UR'-anomaly for variable 'entry' (lines '147'-'152').
+src/main/java/mt/server/MicroServer.java:147:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:148:	There is log block not surrounded by if
+src/main/java/mt/server/MicroServer.java:151:	Local variable 'entry' could be declared final
+src/main/java/mt/server/MicroServer.java:152:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/server/MicroServer.java:167:	Found 'UR'-anomaly for variable 'entry' (lines '167'-'171').
+src/main/java/mt/server/MicroServer.java:167:	Found 'UR'-anomaly for variable 'entry' (lines '167'-'171').
+src/main/java/mt/server/MicroServer.java:167:	Found 'UR'-anomaly for variable 'order' (lines '167'-'173').
+src/main/java/mt/server/MicroServer.java:167:	Found 'UR'-anomaly for variable 'order' (lines '167'-'173').
+src/main/java/mt/server/MicroServer.java:167:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:168:	Local variable 'ordersToSend' could be declared final
+src/main/java/mt/server/MicroServer.java:170:	Local variable 'entry' could be declared final
+src/main/java/mt/server/MicroServer.java:171:	Local variable 'orders' could be declared final
+src/main/java/mt/server/MicroServer.java:172:	Local variable 'order' could be declared final
+src/main/java/mt/server/MicroServer.java:180:	Avoid variables with short names like o1
+src/main/java/mt/server/MicroServer.java:180:	Avoid variables with short names like o2
+src/main/java/mt/server/MicroServer.java:180:	Parameter 'o1' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:180:	Parameter 'o2' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:180:	publicMethodCommentRequirement Required
+src/main/java/mt/server/MicroServer.java:185:	Local variable 'order' could be declared final
+src/main/java/mt/server/MicroServer.java:196:	Found 'UR'-anomaly for variable 'entry' (lines '196'-'204').
+src/main/java/mt/server/MicroServer.java:196:	Found 'UR'-anomaly for variable 'order' (lines '196'-'206').
+src/main/java/mt/server/MicroServer.java:196:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:197:	There is log block not surrounded by if
+src/main/java/mt/server/MicroServer.java:203:	Local variable 'entry' could be declared final
+src/main/java/mt/server/MicroServer.java:204:	Local variable 'orders' could be declared final
+src/main/java/mt/server/MicroServer.java:205:	Local variable 'order' could be declared final
+src/main/java/mt/server/MicroServer.java:217:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:220:	Avoid variables with short names like o
+src/main/java/mt/server/MicroServer.java:220:	Local variable 'o' could be declared final
+src/main/java/mt/server/MicroServer.java:226:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:231:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:252:	Avoid variables with short names like o
+src/main/java/mt/server/MicroServer.java:252:	Parameter 'o' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:256:	Local variable 'orders' could be declared final
+src/main/java/mt/server/MicroServer.java:257:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroServer.java:264:	Comment is too large: Line too long
+src/main/java/mt/server/MicroServer.java:266:	Found 'UR'-anomaly for variable 'entry' (lines '266'-'270').
+src/main/java/mt/server/MicroServer.java:266:	Found 'UR'-anomaly for variable 'o' (lines '266'-'271').
+src/main/java/mt/server/MicroServer.java:266:	Parameter 'sellOrder' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:269:	Local variable 'entry' could be declared final
+src/main/java/mt/server/MicroServer.java:270:	Local variable 'o' could be declared final
+src/main/java/mt/server/MicroServer.java:271:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/server/MicroServer.java:283:	Comment is too large: Line too long
+src/main/java/mt/server/MicroServer.java:285:	Found 'UR'-anomaly for variable 'entry' (lines '285'-'289').
+src/main/java/mt/server/MicroServer.java:285:	Found 'UR'-anomaly for variable 'o' (lines '285'-'290').
+src/main/java/mt/server/MicroServer.java:285:	Parameter 'buyOrder' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:288:	Local variable 'entry' could be declared final
+src/main/java/mt/server/MicroServer.java:289:	Local variable 'o' could be declared final
+src/main/java/mt/server/MicroServer.java:290:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/server/MicroServer.java:301:	Comment is too large: Line too long
+src/main/java/mt/server/MicroServer.java:302:	Comment is too large: Line too long
+src/main/java/mt/server/MicroServer.java:304:	Parameter 'buyOrder' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:304:	Parameter 'sellerOrder' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:327:	Found 'UR'-anomaly for variable 'order' (lines '327'-'330').
+src/main/java/mt/server/MicroServer.java:329:	Local variable 'order' could be declared final
+src/main/java/mt/server/MicroServer.java:341:	Found 'UR'-anomaly for variable 'entry' (lines '341'-'347').
+src/main/java/mt/server/MicroServer.java:341:	Parameter 'order' is not assigned and could be declared final
+src/main/java/mt/server/MicroServer.java:346:	Local variable 'entry' could be declared final
+src/main/java/mt/server/MicroServer.java:354:	Found 'UR'-anomaly for variable 'entry' (lines '354'-'359').
+src/main/java/mt/server/MicroServer.java:358:	Local variable 'entry' could be declared final
+src/main/java/mt/server/MicroServer.java:359:	Avoid variables with short names like it
+src/main/java/mt/server/MicroServer.java:359:	Local variable 'it' could be declared final
+src/main/java/mt/server/MicroServer.java:359:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/mt/server/MicroServer.java:361:	Avoid variables with short names like o
+src/main/java/mt/server/MicroServer.java:361:	Local variable 'o' could be declared final
+src/main/java/mt/server/MicroServer.java:362:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/mt/server/MicroTraderServer.java:6:	Comment is too large: Line too long
+src/main/java/mt/server/MicroTraderServer.java:16:	Comment is too large: Line too long
+src/main/java/mt/server/MicroTraderServer.java:19:	Avoid modifiers which are implied by the context
+src/test/java/mt/test/MicroServerTest.java:24:	Each class should declare at least one constructor
+src/test/java/mt/test/MicroServerTest.java:26:	Avoid variables with short names like ms
+src/test/java/mt/test/MicroServerTest.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:26:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:29:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:32:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:35:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:38:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:41:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:44:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:47:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:50:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:53:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:56:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:59:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/mt/test/MicroServerTest.java:59:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:62:	Avoid unused private fields such as 'msg11'.
+src/test/java/mt/test/MicroServerTest.java:62:	fieldCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:65:	You may have misspelled a JUnit framework method (setUp or tearDown)
+src/test/java/mt/test/MicroServerTest.java:65:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:69:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:70:	The String literal "userA" appears 10 times in this file; the first occurrence is on line 70
+src/test/java/mt/test/MicroServerTest.java:72:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:73:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:73:	The String literal "MSFT" appears 5 times in this file; the first occurrence is on line 73
+src/test/java/mt/test/MicroServerTest.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:78:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:78:	The String literal "userB" appears 11 times in this file; the first occurrence is on line 78
+src/test/java/mt/test/MicroServerTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:81:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:82:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:85:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:86:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:88:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:89:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:92:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:100:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:106:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:112:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:113:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/test/java/mt/test/MicroServerTest.java:114:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/test/java/mt/test/MicroServerTest.java:118:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:119:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/test/java/mt/test/MicroServerTest.java:125:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:130:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:131:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:135:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:144:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:145:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:145:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:154:	Comment is too large: Line too long
+src/test/java/mt/test/MicroServerTest.java:158:	Comment is too large: Line too long
+src/test/java/mt/test/MicroServerTest.java:162:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:163:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:163:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:163:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:163:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:163:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:166:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:171:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:175:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:179:	publicMethodCommentRequirement Required
+src/test/java/mt/test/MicroServerTest.java:180:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:180:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:180:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:183:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/mt/test/MicroServerTest.java:188:	Comment is too large: Line too long
+src/test/java/mt/test/MicroServerTest.java:191:	Comment is too large: Line too long
