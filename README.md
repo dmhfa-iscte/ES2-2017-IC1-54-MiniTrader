@@ -21,4 +21,4 @@ porque é o nome do utilizador local do computador utilizado.
 
 68811, Inês Pica, imscp@iscte-iul.pt
 
-68863, Joana Amaral, 
+68863, Joana Amaral, mjgvp@iscte-iul.pt
