@@ -1,5 +1,19 @@
 # ESII2017MiniTrader
-Simple Marven Project
 
-Entrega Interm�dia:
-https://www.youtube.com/watch?v=v-OG9thRGy8
+turma: IC1     grupo: 54
+
+vídeo AS: https://www.youtube.com/watch?v=1kYS_vC6W10
+vídeo US: https://www.youtube.com/watch?v=YVhUM9P06tY
+vídoe EU: https://www.youtube.com/watch?v=x-uKD5CtFXk
+
+Entrega Intermédia: https://www.youtube.com/watch?v=v-OG9thRGy8
+
+Notas: O trabalho ficou completo e todas as funcionalidades pedidas
+foram implementadas. Os commits feitos por "MARIA DE FATIMA" foram 
+feitos por Diogo Farinha, eles ficaram com esse nome no upload dos branches 
+porque é o nome do utilizador local do computador utilizado.
+
+68866, Ana Rita Ramos, 
+69111, Diogo Farinha, dmhfa@iscte-iul.pt
+68811, Inês Pica,
+68863, Joana Amaral, 
