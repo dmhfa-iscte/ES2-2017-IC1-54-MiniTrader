@@ -11,7 +11,8 @@ vídeo EU: https://www.youtube.com/watch?v=x-uKD5CtFXk
 Entrega Intermédia: https://www.youtube.com/watch?v=v-OG9thRGy8
 
 Notas: O trabalho ficou completo e todas as funcionalidades pedidas
-foram implementadas. Os commits feitos por "MARIA DE FATIMA" foram 
+foram implementadas. Cada versão do servidos tem o seu próprio branch.
+Os commits feitos por "MARIA DE FATIMA" foram 
 feitos por Diogo Farinha, eles ficaram com esse nome no upload dos branches 
 porque é o nome do utilizador local do computador utilizado.
 
