@@ -15,10 +15,10 @@ foram implementadas. Os commits feitos por "MARIA DE FATIMA" foram
 feitos por Diogo Farinha, eles ficaram com esse nome no upload dos branches 
 porque é o nome do utilizador local do computador utilizado.
 
-68866, Ana Rita Ramos, 
+68866, Ana Rita Ramos, armrs1@iscte-iul.pt
 
 69111, Diogo Farinha, dmhfa@iscte-iul.pt
 
-68811, Inês Pica,
+68811, Inês Pica, imscp@iscte-iul.pt
 
 68863, Joana Amaral, 
