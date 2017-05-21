@@ -3,8 +3,10 @@
 turma IC1, grupo 54
 
 vídeo AS: https://www.youtube.com/watch?v=1kYS_vC6W10
+
 vídeo US: https://www.youtube.com/watch?v=YVhUM9P06tY
-vídoe EU: https://www.youtube.com/watch?v=x-uKD5CtFXk
+
+vídeo EU: https://www.youtube.com/watch?v=x-uKD5CtFXk
 
 Entrega Intermédia: https://www.youtube.com/watch?v=v-OG9thRGy8
 
